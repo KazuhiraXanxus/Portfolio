@@ -46,7 +46,7 @@ public class Portfolio extends JFrame {
 		aboutme.setBounds(70, 54, 156, 56);
 		contentPane.add(aboutme);
 
-		JButton Workanddesigns = new JButton("Work and designs");
+		JButton Workanddesigns = new JButton("Work and designs"); // A button for Work and designs
 		Workanddesigns.setBackground(new Color(176, 196, 222));
 		Workanddesigns.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -72,7 +72,7 @@ public class Portfolio extends JFrame {
 		skills.setBounds(613, 54, 156, 56);
 		contentPane.add(skills);
 		
-		JLabel backgroundimg = new JLabel("");
+		JLabel backgroundimg = new JLabel(""); // Create background image 
 		backgroundimg.setBounds(0, 0, 866, 462);
 		ImageIcon icon = new ImageIcon("C:\\Users\\constantino\\Downloads\\xanxusbanner.png");
 		Image img = icon.getImage();
