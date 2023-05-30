@@ -56,7 +56,7 @@ public class wad extends Portfolio {
             });
         btnNewButton.setBounds(758, 0, 108, 23);
         contentPane.add(btnNewButton);
-        backgroundimg.setIcon(scaledIcon);
+        backgroundimg.setIcon(scaledIcon); // to scale with the Jframe itself
 		contentPane.add(backgroundimg);
 	}
 }
