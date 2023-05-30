@@ -29,7 +29,7 @@ public class abtme  {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\constantino\\Downloads\\Batman-Logo.png")); //Replace icon of JFrame
 		setTitle("About Me"); //Set title for the JFrame
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 866, 463);
+		setBounds(100, 100, 866, 462);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
