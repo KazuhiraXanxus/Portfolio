@@ -21,9 +21,6 @@ public class abtme  {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
 
 	public abtme() { // Create JFrame
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\constantino\\Downloads\\Batman-Logo.png")); //Replace icon of JFrame
@@ -50,16 +47,16 @@ public class abtme  {
                     }
                 }
             });
-		btnNewButton.setForeground(Color.RED);
-		btnNewButton.setBackground(SystemColor.desktop);
+		btnNewButton.setForeground(Color.RED); // Color for text color
+		btnNewButton.setBackground(SystemColor.desktop); // Color for background button
 		btnNewButton.setBounds(761, 0, 89, 23);
 		contentPane.add(btnNewButton);
 		
-		JLabel backgroundimg = new JLabel("");
+		JLabel backgroundimg = new JLabel(""); // for background image
 		backgroundimg.setBounds(0, 0, 866, 462);
 		ImageIcon icon = new ImageIcon("C:\\Users\\constantino\\Downloads\\1.png");
 		Image img = icon.getImage();
-        Image scaledImg = img.getScaledInstance(866, 462, Image.SCALE_SMOOTH);
+        Image scaledImg = img.getScaledInstance(866, 462, Image.SCALE_SMOOTH); // to scale with the Jframe itself
         ImageIcon scaledIcon = new ImageIcon(scaledImg);
         backgroundimg.setIcon(scaledIcon);
 		contentPane.add(backgroundimg);
