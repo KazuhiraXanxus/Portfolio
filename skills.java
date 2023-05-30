@@ -35,10 +35,10 @@ public class skills  {
 		SkillImg.setBounds(0, 0, 866, 462);
 		ImageIcon icon = new ImageIcon("C:\\Users\\constantino\\Downloads\\skills.png"); // Import an Image from the computer Storage
 		Image img = icon.getImage();
-        Image scaledImg = img.getScaledInstance(866, 462, Image.SCALE_SMOOTH);
+        Image scaledImg = img.getScaledInstance(866, 462, Image.SCALE_SMOOTH);// to scale with the Jframe itself
         ImageIcon scaledIcon = new ImageIcon(scaledImg);
         
-        JButton btnNewButton = new JButton("Return"); // Create a 
+        JButton btnNewButton = new JButton("Return"); // Create a JButton for return button to go back to main
         btnNewButton.setBackground(new Color(0, 255, 255));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
