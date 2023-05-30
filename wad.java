@@ -25,7 +25,7 @@ public class wad extends Portfolio {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\constantino\\Downloads\\Batman-Logo.png")); // Replace the icon on the top left of the frame with the chosen image
 		setTitle("Works and Design"); // Set the JFrame title to Work and Designs
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 880, 500); // JFrame's dimension and position
+		setBounds(100, 100, 866, 462); // JFrame's dimension and position
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(0, 0, 0));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
