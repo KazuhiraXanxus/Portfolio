@@ -36,7 +36,7 @@ public class abtme  {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("Return");
+		JButton btnNewButton = new JButton("Return"); // Button for Return to main class
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) { // Create a JOption where the program asks to confirm whenever you are to go back to the main frame or not
                 int option = JOptionPane.showOptionDialog(null, "Are you sure you want to go back to the main menu?", "Confirmation", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
