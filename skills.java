@@ -24,7 +24,7 @@ public class skills  {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\constantino\\Downloads\\Batman-Logo.png")); // Replace the icon on the top left of the JFrame with the chosen image
 		setTitle("Skills"); // Set the title of the JFrame
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 863, 458); // Dimensions and placement of the JFrame
+		setBounds(100, 100, 866, 462); // Dimensions and placement of the JFrame
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
